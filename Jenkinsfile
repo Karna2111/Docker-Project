@@ -34,7 +34,7 @@ pipeline
 
     	always
     	{
-    		emailext body: 'Summary', subject: 'Pipeline Status', to: 'karnamaharajan.d@gmail.com'
+    		emailtext body: 'Summary', subject: 'Pipeline Status', to: 'karnamaharajan.d@gmail.com'
     	}
 
     }
